@@ -169,3 +169,109 @@ Unlinked : 673aa318-2756-43f1-9bb0-2f3705ceae24.out
 GET /allNotes 4/24/2025, 2:51:17 PM
 GET /680209a962fda022b46e3001?noteid=680209a962fda022b46e3005 4/24/2025, 2:51:19 PM
 Note:  Sample Note
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 3:09:39 PM
+Deleted(stopped) : js-oj-container
+
+Deleted(stopped) : java-oj-container
+
+Deleted(stopped) : gcc-oj-container
+
+Database Connected !!!
+GET /loggedIn 4/24/2025, 3:10:05 PM
+GET /problems 4/24/2025, 3:10:05 PM
+POST /login 4/24/2025, 3:10:12 PM
+GET /loggedIn 4/24/2025, 3:10:13 PM
+POST /login 4/24/2025, 3:10:23 PM
+GET /loggedIn 4/24/2025, 3:10:23 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:10:34 PM
+Unlinked : 2cd20d17-c116-40a8-a91c-9af20d92b68a.cpp
+GET /status/680a0713d2a22eaafac43ca0 4/24/2025, 3:10:36 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:10:39 PM
+Unlinked : 7b276277-6daf-4002-9a17-89d0904d679b.cpp
+GET /status/680a0718d2a22eaafac43cae 4/24/2025, 3:10:41 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:10:58 PM
+Unlinked : 5966d298-d355-47d0-bde9-160dd9947452.c
+GET /status/680a072ad2a22eaafac43cbc 4/24/2025, 3:11:00 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:11:09 PM
+Unlinked : 880472e3-18b6-4ace-8e0b-af3663bdc10c.cpp
+GET /status/680a0735d2a22eaafac43cca 4/24/2025, 3:11:10 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 3:11:44 PM
+Deleted(stopped) : py-oj-container
+
+Database Connected !!!
+GET /loggedIn 4/24/2025, 3:11:47 PM
+GET /problems 4/24/2025, 3:11:47 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:11:50 PM
+GET /status/680a075e981c6d08021c4196 4/24/2025, 3:11:51 PM
+GET /status/680a075e981c6d08021c4196 4/24/2025, 3:11:52 PM
+Unlinked : 85610f27-0872-48f3-bda1-bbc4830c4785.cpp
+Unlinked : 85610f27-0872-48f3-bda1-bbc4830c4785.out
+GET /status/680a075e981c6d08021c4196 4/24/2025, 3:11:53 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 3:13:11 PM
+Deleted(stopped) : gcc-oj-container
+
+Deleted(stopped) : js-oj-container
+
+Deleted(stopped) : java-oj-container
+
+Database Connected !!!
+GET /loggedIn 4/24/2025, 3:13:18 PM
+GET /problems 4/24/2025, 3:13:18 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:13:22 PM
+GET /status/680a07ba6c0ae2149d4f7a61 4/24/2025, 3:13:23 PM
+GET /status/680a07ba6c0ae2149d4f7a61 4/24/2025, 3:13:24 PM
+Unlinked : 91b63c31-e98c-4a1f-a7bf-6c798082b216.cpp
+Unlinked : 91b63c31-e98c-4a1f-a7bf-6c798082b216.out
+GET /status/680a07ba6c0ae2149d4f7a61 4/24/2025, 3:13:25 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 3:14:19 PM
+Deleted(stopped) : gcc-oj-container
+
+Deleted(stopped) : py-oj-container
+
+Deleted(stopped) : js-oj-container
+
+Database Connected !!!
+GET /problems 4/24/2025, 3:14:27 PM
+GET /loggedIn 4/24/2025, 3:14:27 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:14:29 PM
+GET /status/680a07fd3476b5b5540c1d7f 4/24/2025, 3:14:31 PM
+GET /status/680a07fd3476b5b5540c1d7f 4/24/2025, 3:14:32 PM
+Unlinked : 7db2bfb3-5e3b-470a-b8ce-0a1efa22d18c.cpp
+Unlinked : 7db2bfb3-5e3b-470a-b8ce-0a1efa22d18c.out
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 3:14:53 PM
+Deleted(stopped) : gcc-oj-container
+
+Deleted(stopped) : java-oj-container
+
+Database Connected !!!
+GET /problems 4/24/2025, 3:14:59 PM
+GET /loggedIn 4/24/2025, 3:14:59 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 3:15:02 PM
+Unlinked : 56b760f2-e277-4b8c-b11e-8df64b4a624f.cpp
+GET /status/680a081e644071eb371cac2f 4/24/2025, 3:15:03 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 3:15:48 PM
+Deleted(stopped) : js-oj-container
+
+Deleted(stopped) : py-oj-container
+
+Database Connected !!!
+GET /loggedIn 4/24/2025, 3:15:53 PM
+GET /problems 4/24/2025, 3:15:53 PM
+POST /problems/680a0519c0f8d5924831c860 4/24/2025, 3:16:15 PM
+GET /status/680a0867720692b33a254262 4/24/2025, 3:16:16 PM
+GET /status/680a0867720692b33a254262 4/24/2025, 3:16:17 PM
+Unlinked : 0149ffc7-aa7a-4abf-87fb-4431d7152502.cpp
+Unlinked : 0149ffc7-aa7a-4abf-87fb-4431d7152502.out
+GET /status/680a0867720692b33a254262 4/24/2025, 3:16:18 PM

@@ -127,6 +127,11 @@ Or may be this language is not yet supported !`
 const codeExecutor = async (req, res) => {
     try {
         const { language, code, input } = req.body;
+        console.log(language, code, input);
+        console.log(language, code, input);
+        console.log(language, code, input);
+        console.log(language, code, input);
+        console.log(language, code, input);
 
         if (!validLanguages.includes(language))
             return res.status(400).json({ msg: invalidLanguage });
