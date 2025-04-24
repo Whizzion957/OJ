@@ -1,0 +1,41 @@
+.theme-toggle-btn {
+    background: transparent;
+    border: none;
+    color: var(--nav-text);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .theme-toggle-btn:hover {
+    transform: rotate(15deg);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .theme-toggle-btn:focus {
+    outline: none;
+  }
+  
+  .sun-icon {
+    color: #ffd700; /* Gold color for sun */
+  }
+  
+  .moon-icon {
+    color: #b0c4de; /* Light blue for moon */
+  }
+  
+  /* Add subtle glow effect */
+  .theme-toggle-btn:hover .sun-icon {
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+  }
+  
+  .theme-toggle-btn:hover .moon-icon {
+    text-shadow: 0 0 5px rgba(176, 196, 222, 0.5);
+  }
