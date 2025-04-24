@@ -1,0 +1,9 @@
+.App {
+    overflow-x: hidden;
+    text-align: center;
+    min-height: 100vh;
+    height: auto;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
