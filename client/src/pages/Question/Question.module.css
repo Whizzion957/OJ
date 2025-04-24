@@ -276,7 +276,7 @@
 }
 
 .response::before {
-    background-color: white;
+    background-color: grey;
     border: 1px solid hsla(var(--col), 44%, 76%, 0.5);
     font-size: 1.5em;
     content: "Verdict";
