@@ -1,0 +1,171 @@
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 2:31:12 PM
+gcc-oj-container Id : b3434a1e8ea1ad46a2ab0b3949de8c54d8ce8a3881bb76c285d74bd9f4291907
+py-oj-container Id : cfe260bbb19b9ca4ab625eed1371d2d1053e60fc2d6ffe6693e6a9b2b4a7aeb6
+js-oj-container Id : 4be7696a692ef52b6c64fbcb8affd3295e7353f93d657de6776d3bdf334577c7
+java-oj-container Id : d3f794a29e3ecafb0112704a8b6e554f53aaae04d60a4b5867745f18efdaf35b
+
+All Containers Initialized
+GET /loggedIn 4/24/2025, 2:31:19 PM
+GET /problems 4/24/2025, 2:31:19 PM
+GET /problems 4/24/2025, 2:31:22 PM
+GET /loggedIn 4/24/2025, 2:31:22 PM
+GET /problems 4/24/2025, 2:31:59 PM
+GET /loggedIn 4/24/2025, 2:31:59 PM
+GET /problems 4/24/2025, 2:32:07 PM
+GET /loggedIn 4/24/2025, 2:32:07 PM
+POST /register 4/24/2025, 2:32:40 PM
+GET /leaderboard 4/24/2025, 2:32:44 PM
+GET /loggedIn 4/24/2025, 2:32:50 PM
+POST /login 4/24/2025, 2:33:04 PM
+GET /loggedIn 4/24/2025, 2:33:14 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 2:34:46 PM
+Deleted(stopped) : py-oj-container
+
+Deleted(stopped) : js-oj-container
+
+Deleted(stopped) : java-oj-container
+
+Deleted(stopped) : gcc-oj-container
+
+Database Connected !!!
+POST /login 4/24/2025, 2:34:59 PM
+GET /loggedIn 4/24/2025, 2:34:59 PM
+POST /register 4/24/2025, 2:35:26 PM
+GET /loggedIn 4/24/2025, 2:35:27 PM
+GET /leaderboard 4/24/2025, 2:35:32 PM
+GET /leaderboard 4/24/2025, 2:35:35 PM
+GET /allNotes 4/24/2025, 2:35:49 PM
+GET /680209a962fda022b46e3001?noteid=680209a962fda022b46e3005 4/24/2025, 2:35:51 PM
+Note:  Sample Note
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 2:37:01 PM
+Deleted(stopped) : js-oj-container
+
+Deleted(stopped) : py-oj-container
+
+Database Connected !!!
+GET /problems 4/24/2025, 2:37:37 PM
+GET /loggedIn 4/24/2025, 2:37:37 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:37:49 PM
+GET /status/6809ff65e9f9bed10c8bbefa 4/24/2025, 2:37:51 PM
+GET /status/6809ff65e9f9bed10c8bbefa 4/24/2025, 2:37:52 PM
+Unlinked : 5109448c-4c44-4107-90f4-a85acb35a762.cpp
+Unlinked : 5109448c-4c44-4107-90f4-a85acb35a762.out
+GET /status/6809ff65e9f9bed10c8bbefa 4/24/2025, 2:37:53 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:38:14 PM
+GET /status/6809ff7ee9f9bed10c8bbf10 4/24/2025, 2:38:15 PM
+GET /status/6809ff7ee9f9bed10c8bbf10 4/24/2025, 2:38:16 PM
+Unlinked : 3e2bf392-0f67-4807-aaaa-4306f87a3bcf.cpp
+Unlinked : 3e2bf392-0f67-4807-aaaa-4306f87a3bcf.out
+GET /status/6809ff7ee9f9bed10c8bbf10 4/24/2025, 2:38:17 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:38:36 PM
+GET /status/6809ff94e9f9bed10c8bbf26 4/24/2025, 2:38:37 PM
+Unlinked : 847b9317-e731-4851-b7ea-91ed2b0fcdd4.cpp
+GET /status/6809ff94e9f9bed10c8bbf26 4/24/2025, 2:38:38 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 2:39:21 PM
+Deleted(stopped) : py-oj-container
+
+Deleted(stopped) : java-oj-container
+
+Deleted(stopped) : gcc-oj-container
+
+Database Connected !!!
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 2:39:57 PM
+Deleted(stopped) : gcc-oj-container
+
+Deleted(stopped) : js-oj-container
+
+Database Connected !!!
+GET /loggedIn 4/24/2025, 2:40:17 PM
+GET /problems 4/24/2025, 2:40:17 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:40:22 PM
+Unlinked : 60b52234-9736-4d1b-88ea-f56a215bc7a5.cpp
+GET /status/6809fffea6121db5e163df0e 4/24/2025, 2:40:23 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:40:37 PM
+Unlinked : 7e173f5d-3468-47c8-9c21-7fa97faca604.cpp
+GET /status/680a000da6121db5e163df1c 4/24/2025, 2:40:38 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:41:31 PM
+Unlinked : d345b8a6-3bd9-42e1-bfec-97f4f76f1568.cpp
+GET /status/680a0044a6121db5e163df2a 4/24/2025, 2:41:33 PM
+GET /loggedIn 4/24/2025, 2:42:17 PM
+GET /problems 4/24/2025, 2:42:17 PM
+GET /loggedIn 4/24/2025, 2:42:34 PM
+GET /problems 4/24/2025, 2:42:34 PM
+GET /loggedIn 4/24/2025, 2:42:35 PM
+GET /problems 4/24/2025, 2:42:35 PM
+GET /loggedIn 4/24/2025, 2:42:45 PM
+GET /problems 4/24/2025, 2:42:45 PM
+GET /loggedIn 4/24/2025, 2:42:50 PM
+GET /problems 4/24/2025, 2:42:50 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:42:55 PM
+Unlinked : fd650ae9-b29d-4f52-9e96-625fb15fe167.cpp
+GET /status/680a0097a6121db5e163df56 4/24/2025, 2:42:57 PM
+GET /loggedIn 4/24/2025, 2:43:10 PM
+GET /problems 4/24/2025, 2:43:10 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:43:13 PM
+Unlinked : f5fe7827-68b4-489a-8bc0-33a4854a97cf.cpp
+GET /status/680a00a9a6121db5e163df6a 4/24/2025, 2:43:14 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:44:57 PM
+Unlinked : 64af5820-0200-4772-92f0-826a6f34aaa9.cpp
+GET /status/680a0111a6121db5e163df78 4/24/2025, 2:44:58 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 2:48:09 PM
+Deleted(stopped) : java-oj-container
+
+Deleted(stopped) : py-oj-container
+
+Database Connected !!!
+GET /loggedIn 4/24/2025, 2:48:16 PM
+GET /problems 4/24/2025, 2:48:16 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:48:19 PM
+GET /status/680a01dc5ae13f5bb57fb617 4/24/2025, 2:48:21 PM
+Unlinked : 5cc36de5-2bfd-4651-9e10-784eecae2817.cpp
+Unlinked : 5cc36de5-2bfd-4651-9e10-784eecae2817.out
+GET /status/680a01dc5ae13f5bb57fb617 4/24/2025, 2:48:22 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:48:48 PM
+GET /status/680a01f85ae13f5bb57fb62a 4/24/2025, 2:48:49 PM
+Unlinked : 127c2fe7-8f53-41e1-a274-ab66c1750920.cpp
+Unlinked : 127c2fe7-8f53-41e1-a274-ab66c1750920.out
+GET /status/680a01f85ae13f5bb57fb62a 4/24/2025, 2:48:50 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:49:26 PM
+GET /status/680a021e5ae13f5bb57fb63d 4/24/2025, 2:49:27 PM
+GET /status/680a021e5ae13f5bb57fb63d 4/24/2025, 2:49:28 PM
+Unlinked : 270d8ef9-a276-4621-b896-7a80c1a8ef9d.cpp
+Unlinked : 270d8ef9-a276-4621-b896-7a80c1a8ef9d.out
+GET /status/680a021e5ae13f5bb57fb63d 4/24/2025, 2:49:29 PM
+GET /loggedIn 4/24/2025, 2:50:08 PM
+GET /problems 4/24/2025, 2:50:08 PM
+In undefined env !
+Redis version greater than or equal to 2.8.18 Required !
+Server running on PORT 5000 4/24/2025, 2:50:46 PM
+Deleted(stopped) : js-oj-container
+
+Deleted(stopped) : gcc-oj-container
+
+Deleted(stopped) : py-oj-container
+
+Database Connected !!!
+GET /loggedIn 4/24/2025, 2:50:48 PM
+GET /problems 4/24/2025, 2:50:48 PM
+GET /problems 4/24/2025, 2:50:49 PM
+GET /problems 4/24/2025, 2:50:49 PM
+GET /loggedIn 4/24/2025, 2:50:49 PM
+GET /loggedIn 4/24/2025, 2:50:49 PM
+POST /problems/6801fca526bbb59562c82e24 4/24/2025, 2:51:01 PM
+GET /status/680a027df2011793e4dd21cb 4/24/2025, 2:51:02 PM
+GET /status/680a027df2011793e4dd21cb 4/24/2025, 2:51:03 PM
+Unlinked : 673aa318-2756-43f1-9bb0-2f3705ceae24.cpp
+Unlinked : 673aa318-2756-43f1-9bb0-2f3705ceae24.out
+GET /allNotes 4/24/2025, 2:51:17 PM
+GET /680209a962fda022b46e3001?noteid=680209a962fda022b46e3005 4/24/2025, 2:51:19 PM
+Note:  Sample Note

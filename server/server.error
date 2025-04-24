@@ -1,0 +1,119 @@
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Oh no MONGOOSE Error !!! 4/24/2025, 2:31:42 PM
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Connection.openUri (/home/ayushka/OJ/server/node_modules/mongoose/lib/connection.js:819:32)
+    at /home/ayushka/OJ/server/node_modules/mongoose/lib/index.js:377:10
+    at /home/ayushka/OJ/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/ayushka/OJ/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/ayushka/OJ/server/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/home/ayushka/OJ/server/node_modules/mongoose/lib/index.js:376:20)
+    at connectDB (/home/ayushka/OJ/server/DataBase/connectDB.js:8:21)
+    at Object.<anonymous> (/home/ayushka/OJ/server/index.js:31:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    logicalSessionTimeoutMinutes: undefined
+  },
+  code: undefined
+}
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 4/24/2025, 2:32:50 PM
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 4/24/2025, 2:33:14 PM
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error while inserting log into the database: MongooseError: Operation `logs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/ayushka/OJ/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:151:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Docker Error:  java-oj-container Docker Error : {"msg":"Docker Container Creation Error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --memory=512m --memory-swap=512m --mount type=bind,src=\"/home/ayushka/OJ/server/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/java-oj-container\" is already in use by container \"d3f794a29e3ecafb0112704a8b6e554f53aaae04d60a4b5867745f18efdaf35b\". You have to remove (or rename) that container to be able to reuse that name.\n\nRun 'docker run --help' for more information\n"}
+4/24/2025, 2:34:46 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"Docker Container Creation Error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --memory=512m --memory-swap=512m --mount type=bind,src=\"/home/ayushka/OJ/server/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/js-oj-container\" is already in use by container \"ec98654bf678eef13070165a9eb3a97bd937056b0a0eff498fad90462d591fe9\". You have to remove (or rename) that container to be able to reuse that name.\n\nRun 'docker run --help' for more information\n"}
+4/24/2025, 2:37:01 PM
+Docker Error:  py-oj-container Docker Error : {"msg":"Docker Container Creation Error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --memory=512m --memory-swap=512m --mount type=bind,src=\"/home/ayushka/OJ/server/CodeExecuter/codeFiles\",dst=/codeFiles --name py-oj-container --label oj=oj python:3.10-slim"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/py-oj-container\" is already in use by container \"bbdd0637c51ff7d9921ea5502a4ac63434f8abd5320742c7ed65224fc330b7c3\". You have to remove (or rename) that container to be able to reuse that name.\n\nRun 'docker run --help' for more information\n"}
+4/24/2025, 2:39:21 PM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"Docker Container Creation Error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --memory=512m --memory-swap=512m --mount type=bind,src=\"/home/ayushka/OJ/server/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/gcc-oj-container\" is already in use by container \"b8fc47f0953289eb50c89b6168d68098c7be0add4a41f39e237b24a960ec2d9e\". You have to remove (or rename) that container to be able to reuse that name.\n\nRun 'docker run --help' for more information\n"}
+4/24/2025, 2:39:57 PM
+Docker Error:  java-oj-container Docker Error : {"msg":"Docker Container Creation Error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --memory=512m --memory-swap=512m --mount type=bind,src=\"/home/ayushka/OJ/server/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/java-oj-container\" is already in use by container \"44a8e3c906f43fd9ab262d635d0a8bf6a06f1453708b1d07fd02fe85551b54a7\". You have to remove (or rename) that container to be able to reuse that name.\n\nRun 'docker run --help' for more information\n"}
+4/24/2025, 2:48:10 PM
+Docker Error:  py-oj-container Docker Error : {"msg":"Docker Container Creation Error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --memory=512m --memory-swap=512m --mount type=bind,src=\"/home/ayushka/OJ/server/CodeExecuter/codeFiles\",dst=/codeFiles --name py-oj-container --label oj=oj python:3.10-slim"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/py-oj-container\" is already in use by container \"be4e43df3bb5b981ef2d3688d1497848add6c58c7bb885232330382002d335d7\". You have to remove (or rename) that container to be able to reuse that name.\n\nRun 'docker run --help' for more information\n"}
+4/24/2025, 2:50:46 PM
