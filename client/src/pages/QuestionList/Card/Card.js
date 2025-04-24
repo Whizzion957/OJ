@@ -1,83 +1,138 @@
-/* .left,
-.right {
-    border: 1px orange solid;
-} */
+import React, { useState, useEffect, Fragment, useRef } from 'react'
+import Card from './Card/Card';
+import Filter from './Filter/Filter';
+import classes from './QuestionList.module.css'
 
-.Card {
-    font-family: 'gotham';
-    color: var(--text-color, rgb(122, 119, 119));
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    min-height: 8rem;
-    /* background-color: hsl(160, 80%, 95%); */
-    /* border-radius: 1rem; */
-    margin: 1.5rem 5rem;
-    padding: 1.5rem 0 0 0;
-    border-bottom: 1px solid var(--border-color, rgba(34, 36, 38, .15));
+import { useSelector } from 'react-redux';
+
+import Fab from '@mui/material/Fab'
+import EditIcon from '@mui/icons-material/Edit';
+import CloseIcon from '@mui/icons-material/Close';
+import { ClickAwayListener, Slide, useMediaQuery } from '@mui/material'
+
+import LoadingSpinner from '../../compenents/LoadingSpinner/LoadingSpinner';
+import ScrollToTop from '../../compenents/ScrollToTop/ScrollToTop';
+
+
+const QuestionList = () => {
+
+    const [easy, setEasy] = useState(false);
+    const [medium, setMedium] = useState(false);
+    const [hard, setHard] = useState(false);
+    const [solved, setSolved] = useState(false);
+    const [unsolved, setUnsolved] = useState(false);
+    const cardsRef = useRef(null);
+
+    const { loggedIn, solvedQuestions } = useSelector(state => state.auth);
+    const problems = useSelector(state => state.questions);
+    const [questions, setQuestions] = useState([]);
+
+    useFilterQuestions({ easy, medium, hard, problems, solved, unsolved, solvedQuestions, setQuestions });
+
+    const isMobile = useMediaQuery('(max-width:1000px)');
+    const [isSideBar, setSideBar] = useState(false);
+
+    return (
+        <div className={classes.questions}>
+            <ScrollToTop element={cardsRef.current} />
+            {
+                (problems.isLoading) ?
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        width: '100%'
+                    }}
+                    >
+                        <LoadingSpinner />
+                    </div> : (
+                        (problems && problems.questions && problems.questions.length > 0) ? (
+                            <Fragment>
+                                {isMobile ? (
+                                    <ClickAwayListener onClickAway={() => setSideBar(false)}>
+                                        <div>
+                                            <Fab
+                                                onClick={() => setSideBar(prev => !prev)}
+                                                style={{ position: 'fixed', marginLeft: '0.9rem', marginTop: '0.6rem', opacity: '0.8' }} color="secondary"
+                                                aria-label="filter"
+                                            >
+                                                {isSideBar ? <CloseIcon /> : <EditIcon />}
+                                            </Fab>
+                                            <Slide direction="right" in={(isSideBar || !isMobile)} mountOnEnter unmountOnExit>
+                                                <div className={classes.filterabs}>
+                                                    <Filter
+                                                        setEasy={setEasy}
+                                                        setMedium={setMedium}
+                                                        setHard={setHard}
+                                                        easy={easy}
+                                                        medium={medium}
+                                                        hard={hard}
+                                                        loggedIn={loggedIn}
+                                                        solved={solved}
+                                                        setSolved={setSolved}
+                                                        unsolved={unsolved}
+                                                        setUnsolved={setUnsolved}
+                                                    />
+                                                </div>
+                                            </Slide>
+                                        </div>
+                                    </ClickAwayListener>
+                                ) : (
+                                    <div className={classes.filter}>
+                                        <div className={classes.filterabs}>
+                                            <Filter
+                                                setEasy={setEasy}
+                                                setMedium={setMedium}
+                                                setHard={setHard}
+                                                easy={easy}
+                                                medium={medium}
+                                                hard={hard}
+                                                loggedIn={loggedIn}
+                                                solved={solved}
+                                                setSolved={setSolved}
+                                                unsolved={unsolved}
+                                                setUnsolved={setUnsolved}
+                                            />
+                                        </div>
+                                    </div>
+                                )}
+
+                                <div className={classes.cards} ref={cardsRef}>
+                                    {questions.map(problem => <Card solved={loggedIn && solvedQuestions.includes(problem._id)} key={problem._id} question={problem} />)}
+                                </div>
+                            </Fragment>
+                        ) : (
+                            <div style={{ width: '100%' }}>
+                                <div className='errorTemplate'>
+                                    <div><span>Msg : </span>Looks like there are no questions here !</div>
+                                    {<div><span>Cause : </span>Check if your not offline / Or may be server is down.</div>}
+                                </div>
+                            </div>
+                        )
+                    )
+            }
+        </div>
+    )
 }
 
-@media (max-width:1000px) {
-    .Card {
-        margin: 1.5rem 0.01rem;
-    }
+const useFilterQuestions = ({ easy, medium, hard, problems, solved, unsolved, solvedQuestions, setQuestions }) => {
+    useEffect(() => {
+        if (!easy && !medium && !hard) {
+            setQuestions(problems.questions);
+        }
+        else setQuestions(problems.questions.filter(element => (
+            (easy && element.difficulty === 'easy') ||
+            (medium && element.difficulty === 'medium') ||
+            (hard && element.difficulty === 'hard')
+        )));
 
-    .questionName {
-        font-size: 1.4em !important;
-    }
+        if (solved || unsolved)
+            setQuestions(questions => questions.filter(ele => (
+                (solved && solvedQuestions.includes(ele._id)) ||
+                (unsolved && !solvedQuestions.includes(ele._id))
+            )));
 
-    .mid {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
+    }, [easy, medium, hard, problems, solved, unsolved, solvedQuestions, setQuestions])
 }
 
-.level::first-letter {
-    text-transform: capitalize;
-    font-size: 1.3em;
-}
-
-.level[diff-color="easy"] {
-    color: var(--easy-difficulty);
-}
-
-.level[diff-color="medium"] {
-    color: var(--medium-difficulty);
-}
-
-.level[diff-color="hard"] {
-    color: var(--hard-difficulty);
-}
-
-.left {
-    width: 50%;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-.mid {
-    width: 20%;
-    /* color: hsla(0, 0%, 96%, .6); */
-    font-family: 'Raleway', 'gotham';
-    font-weight: 800;
-    font-size: 13px !important;
-    letter-spacing: 2.7px;
-    color: var(--secondary-text-color, inherit);
-}
-
-.right {
-    display: flex;
-    justify-content: flex-end;
-    width: 40%;
-}
-
-.questionName {
-    font-size: 1.7em;
-    margin-left: 1rem;
-    text-align: start;
-    color: var(--text-color, inherit);
-}
-
-.succ {
-    color: var(--secondary-text-color, inherit);
-}
+export default QuestionList;
